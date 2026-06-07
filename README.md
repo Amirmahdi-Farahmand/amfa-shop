@@ -74,62 +74,31 @@
 
 ## 📁 Project Structure
 amfa-shop/
-├── 📄 index.php # Homepage with product slider
-├── 📄 product.php # Single product details page
-├── 📄 showProducts.php # Products listing with filters
-├── 📄 buyForm.php # Shopping cart
-├── 📄 checkout.php # Customer information form
-├── 📄 payment.php # Simulated payment page
-├── 📄 order-success.php # Order confirmation page
-├── 📄 track-order.php # Order tracking page
-├── 📄 profile.php # User profile & order history
-├── 📄 login.php # Login page
-├── 📄 signup.php # Registration page
-├── 📄 forgot-password.php # Password recovery
-├── 📄 not-found-product.php # 404 page
-├── 📄 emailCode.html # Email verification (test mode)
-├── 🎨 style.css # Custom styles
-├── 📜 script.js # Frontend JavaScript
-├── 🗄️ database.sql # Database schema & sample data
+├── index.php              # صفحه اصلی
+├── product.php            # جزئیات محصول
+├── showProducts.php       # لیست محصولات
+├── buyForm.php            # سبد خرید
+├── checkout.php           # اطلاعات خریدار
+├── payment.php            # صفحه پرداخت
+├── order-success.php      # تأیید سفارش
+├── track-order.php        # پیگیری سفارش
+├── profile.php            # پروفایل کاربری
+├── login.php              # ورود
+├── signup.php             # ثبت‌نام
+├── forgot-password.php    # بازیابی رمز
+├── style.css              # استایل‌ها
+├── script.js              # کدهای جاوااسکریپت
+├── database.sql           # دیتابیس
 │
-├── 📁 api/ # RESTful API endpoints
-│ ├── config.php # Database configuration
-│ ├── get-products.php
-│ ├── get-cart.php
-│ ├── add-to-cart.php
-│ ├── update-cart.php
-│ ├── remove-from-cart.php
-│ ├── login.php
-│ ├── register.php
-│ ├── logout.php
-│ ├── search-products.php
-│ └── admin-*.php # Admin API endpoints
-│
-├── 📁 admin/ # Admin panel
-│ ├── index.php # Dashboard
-│ ├── products.php # Product management
-│ ├── add-product.php # Add new product
-│ ├── edit-product.php # Edit product
-│ ├── comments.php # Comment moderation
-│ └── orders.php # Order management
-│
-├── 📁 assets/ # Static assets
-│ ├── css/bootstrap.min.css
-│ └── js/bootstrap.bundle.min.js
-│
-└── 📁 img/ # Product images & banners
-├── default-product.webp
-├── categories/ # Category icons
-└── *.jpg, *.webp # Product images
-
-
+├── api/                   # API‌ها
+├── admin/                 # پنل مدیریت
+├── assets/                # فایل‌های CSS و JS
+└── img/                   # تصاویر
 
 ---
-ر
-⭐ حمایت شما
-اگر از این پروژه خوشتان آمده، لطفاً یک ستاره ⭐ به آن بدهید تا دیگران نیز آن را ببینند.
-
 <div align="center">
+⭐ اگر از پروژه خوشتان آمد، ستاره دهید ⭐
+
 ساخته شده با ❤️ توسط امیر فرهمند
 
 </div> ```
